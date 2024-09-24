@@ -1,0 +1,715 @@
+body,
+html {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header Styling Start */
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.25rem #20b1586b;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.dropdown-menu {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: 0;
+}
+
+.dropdown-item:active,
+.dropdown-item:hover {
+  background-color: #20b15a;
+}
+
+.dropdown-item {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0.938rem 1.25rem;
+  color: black;
+  border-bottom: 0.063rem solid #e5e5e5;
+}
+
+li:last-child .dropdown-item {
+  border-bottom: none;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+  color: inherit;
+}
+
+.navbar-brand:hover {
+  color: inherit;
+}
+
+.navbar-brand span {
+  color: #f55f1d;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+header .navbar-expand-lg .navbar-nav {
+  column-gap: 1.875rem;
+}
+
+.text-dark {
+  color: black;
+}
+
+.fw-regular {
+  font-weight: 500;
+}
+
+.radius-10 {
+  border-radius: 0.625rem;
+}
+
+.btn-outline-success {
+  border-color: #20b15a;
+}
+
+.btn-outline-success:hover {
+  border-color: white;
+}
+
+.btn-success {
+  border-color: #20b15a;
+  background-color: #20b15a;
+}
+
+header.fixed-top {
+  background-color: #d7f5dc;
+}
+
+/* End Header Styles */
+/* Hero Banner Start */
+
+.hero-banner {
+  background-color: #d7f5dc;
+  padding: 7.5rem 0 1.563rem;
+}
+
+.hero-banner h2 {
+  font-size: 3.125rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 0.625rem;
+}
+
+.hero-banner p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 2.313rem;
+}
+
+.hero-banner a {
+  padding: 1.25rem 1.875rem;
+  line-height: 1;
+}
+
+.social-logos {
+  background-color: white;
+  padding: 2.75rem;
+}
+/* Hero Banner End */
+/* About start */
+
+.what-we-do {
+  padding: 4.03rem;
+}
+
+.sub-heading {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.938rem;
+  color: #20b15a;
+  text-transform: uppercase;
+}
+
+.main-heading {
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 2.5rem;
+}
+
+.what-we-do .boxes-wrapper {
+  padding: 3.125rem 3.125rem 3.125rem 1.875rem;
+  border-radius: 1.875rem;
+  transition: all 0.35s linear;
+  background-color: white;
+}
+
+.what-we-do .boxes-wrapper:hover {
+  box-shadow: 0 0.25rem 1.25rem 0 #0000001a;
+}
+
+.what-we-do .boxes-wrapper h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1.563rem;
+}
+
+.what-we-do .boxes-wrapper p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 2.5rem;
+}
+
+.what-we-do .boxes-wrapper a {
+  transition: all 0.35s linear;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0.938rem 1.25rem;
+  border-radius: 0.625rem;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.what-we-do .boxes-wrapper:hover a {
+  color: white;
+  background-color: #f55f1d;
+}
+
+.what-we-do .boxes-wrapper a img {
+  transition: all 0.35s linear;
+}
+
+.what-we-do .boxes-wrapper:hover a img {
+  filter: invert(1);
+}
+
+/* About End */
+/* Our Progress Start*/
+
+.our-progress {
+  padding: 5rem 0;
+  background-color: #fafffb;
+}
+
+.our-progress ul li {
+  padding: 2.5rem;
+  border-right: 0.125rem solid #c4c4c480;
+  text-align: center;
+}
+
+.our-progress ul li:last-child {
+  border-right: none;
+}
+
+.our-progress ul li img {
+  margin-bottom: 0.625rem;
+}
+
+.our-progress ul li h4 {
+  margin-bottom: 0.938rem;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.our-progress ul li h2 {
+  margin: 1;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #20b15a;
+}
+/* Our Progress End */
+/* Portfolio Start  */
+
+.portfolio {
+  padding: 4.688rem 0;
+}
+
+.portfolio-container {
+  column-gap: 6em;
+  column-count: 2;
+}
+
+.portfolio h2.main-heading {
+  margin-bottom: 4.688rem;
+}
+
+.portfolio .portfolio-wrapper {
+  display: inline-block;
+  width: 100%;
+  break-inside: avoid;
+}
+
+.portfolio .portfolio-wrapper:nth-child(odd) {
+  margin: 0 0 6em;
+}
+
+.portfolio .portfolio-wrapper img {
+  margin-bottom: 2.625rem;
+  width: 100%;
+}
+
+.portfolio .portfolio-wrapper h4 {
+  font-size: 1.438rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.938rem;
+}
+
+.portfolio .portfolio-wrapper p {
+  font-size: 0.93rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  padding-right: 1.688rem;
+}
+/* Portfolio End */
+/* Testimonials Start */
+
+.testimonials {
+  padding: 7.188rem 0;
+}
+
+.testimonials-slider .item {
+  padding: 2.5rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 0.25rem 0.25rem 0 #00000040;
+  background-color: white;
+  margin: 0 1.469rem;
+}
+
+.testimonials-slider .item p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.563rem;
+  margin-bottom: 1.25rem;
+}
+
+.testimonials-container {
+  margin-left: 5%;
+}
+
+.testimonials-slider .item .client-detail {
+  gap: 0.625rem;
+}
+
+.testimonials-slider .item .client-detail h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.313rem;
+}
+
+.testimonials-slider .item .client-detail p {
+  margin: 0;
+}
+
+.testimonials-slider .item .client-detail img {
+  background: #2427291a;
+  border-radius: 3.75rem;
+  height: 3.75rem;
+  width: 3.75rem;
+  object-fit: cover;
+}
+
+.testimonials-slider .slick-track {
+  padding: 1.25rem 0;
+}
+
+.testimonials-slider .slick-list {
+  padding: 0 20% 0 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+
+.testimonials-slider .slick-arrow {
+  left: unset;
+  right: 7%;
+  bottom: unset;
+  top: -7.813rem;
+  border: 0.063rem solid black;
+  height: 3.75rem;
+  width: 3.75rem;
+  border-radius: 3.75rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  transition: all 0.35s linear;
+}
+
+.testimonials-slider .slick-arrow svg {
+  fill: black;
+  height: 1.375rem;
+  width: 1.375rem;
+}
+
+.testimonials-slider .slick-arrow:hover {
+  background-color: #d7f5dc;
+  border-color: #d7f5dc;
+}
+
+.testimonials-slider .slick-prev {
+  right: 13%;
+}
+/* Testimonials End */
+/* Newsletter Start */
+
+.subscribe {
+  padding: 5.938rem 0;
+}
+
+.subscribe h5.sub-heading {
+  margin-bottom: 1.375rem;
+}
+
+.subscribe h2.main-heading {
+  text-transform: capitalize;
+  line-height: 1.5;
+  margin-bottom: 0.313rem;
+}
+
+.subscribe p {
+  font-size: 0.938rem;
+  font-weight: 500;
+  line-height: 1.375rem;
+  color: #8b8b8b;
+  margin-bottom: 2.5rem;
+}
+
+.subscribe form input[type="email"] {
+  padding: 1.25rem 1rem;
+  border-radius: 0.875rem;
+  border: 0.063rem solid black;
+  width: 100%;
+  outline: 0;
+  max-height: 3.875rem;
+}
+
+.subscribe form input::placeholder {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.375rem;
+  color: #8b8b8b;
+}
+
+.subscribe form input[type="submit"] {
+  position: absolute;
+  right: 0.281rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2.125rem;
+  background-color: #f55f1d;
+  border: none;
+  outline: 0;
+  color: white;
+  height: 3.25rem;
+  top: 0.281rem;
+}
+
+.subscribe form {
+  position: relative;
+}
+
+div#subscribe-respons-message {
+  margin-top: 0.938rem;
+  font-size: 0.938rem;
+  font-weight: 500;
+  line-height: 1.375rem;
+  color: #8b8b8b;
+}
+/* Newsletter End */
+/* Footer Start */
+
+.site-footer {
+  padding: 4.688rem 0 1.875rem;
+  background-color: #00ca72;
+}
+
+.site-footer h2 {
+  font-size: 2.438rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+
+.site-footer h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-footer .social-icons {
+  margin-top: 1.25rem;
+  column-gap: 0.938rem;
+}
+
+.site-footer .social-icons li a {
+  height: 2.563rem;
+  width: 2.563rem;
+  border-radius: 2.563rem;
+  background-color: #20b15a;
+  color: white;
+  font-size: 1.063rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-footer .social-icons li a i {
+  line-height: 1;
+}
+
+.site-footer h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 1.563rem;
+}
+
+.site-footer .footer-menu {
+  row-gap: 1.563rem;
+}
+
+.site-footer .footer-menu li a {
+  display: inline-block;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1;
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-footer .copyright {
+  margin: 4.375rem 0 0;
+}
+/* Footer End */
+
+/* Media queries Start */
+
+@media screen and (max-width: 74.9375em) {
+  .container {
+    max-width: 71.25rem;
+  }
+  .hero-banner h2 {
+    font-size: 2.75rem;
+  }
+  .social-logos {
+    padding: 2.188rem 0;
+  }
+  .what-we-do .boxes-wrapper {
+    padding-right: 1.875rem;
+  }
+  .what-we-do .boxes-wrapper h3 {
+    min-height: 3.563rem;
+  }
+  .testimonials-slider .slick-arrow {
+    right: 0.938rem;
+  }
+  .testimonials-slider .slick-prev {
+    right: 5.625rem;
+  }
+  .testimonials-container {
+    margin-left: 0;
+  }
+  .testimonials-slider .slick-list {
+    padding: 0 10% 0 0;
+  }
+  .testimonials,
+  .subscribe {
+    padding: 5rem 0;
+  }
+  .our-progress {
+    padding: 3.75rem 0;
+  }
+  .testimonials-slider .item {
+    padding: 1.875rem;
+  }
+}
+@media screen and (max-width: 62em) {
+  header .navbar-expand-lg .navbar-nav {
+    row-gap: 1.25rem;
+  }
+  .hero-banner h2 {
+    font-size: 2.125rem;
+  }
+  .hero-banner p {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  .hero-banner {
+    padding: 5.625rem 0 1.563rem;
+  }
+  .what-we-do .boxes-wrapper {
+    padding: 1.875rem;
+  }
+  .what-we-do .boxes-wrapper > img {
+    width: 4.375rem;
+  }
+  .what-we-do .boxes-wrapper h3 {
+    font-size: 1.25rem;
+  }
+  .what-we-do .boxes-wrapper p {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+  }
+  .what-we-do .boxes-wrapper a {
+    font-size: 1rem;
+    padding: 0.625rem 0.938rem;
+  }
+  .what-we-do .boxes-wrapper a img {
+    width: 0.875rem;
+  }
+  .our-progress {
+    padding: 3.125rem 0;
+  }
+  .our-progress ul li {
+    border-radius: none;
+  }
+  .portfolio-container {
+    column-gap: 4em;
+  }
+  .portfolio .portfolio-wrapper:nth-child(odd) {
+    margin: 0 0 4em;
+  }
+  .portfolio .portfolio-wrapper p {
+    font-size: 0.875rem;
+    padding-right: 0;
+  }
+  .testimonials,
+  .subscribe {
+    padding: 3.75rem 0;
+  }
+  .testimonials .slick-arrow {
+    height: 3.125rem;
+    width: 3.125rem;
+  }
+  .testimonials .slick-list {
+    padding: 0 30% 0 0;
+  }
+  .site-footer p {
+    font-size: 1rem;
+    line-height: 1.563rem;
+  }
+  .site-footer .col-md-4 {
+    width: 25%;
+  }
+  .site-footer .col-md-3 {
+    width: 33.33%;
+  }
+  .site-footer .footer-menu li a {
+    font-size: 1rem;
+  }
+  .site-footer .footer-menu {
+    row-gap: 15px;
+  }
+}
+
+@media screen and (max-width: 47.938em) {
+  br {
+    display: none;
+  }
+  .main-heading {
+    font-size: 1.688rem;
+  }
+  .sub-heading {
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+  }
+  header .navbar-collapse {
+    padding-top: 1.875rem;
+  }
+  .hero-banner .col-md-6 {
+    text-align: center;
+    align-items: center;
+  }
+  .hero-banner .row,
+  .what-we-do .row {
+    row-gap: 1.875rem;
+  }
+  .social-logos .nav {
+    justify-content: center;
+    row-gap: 1.563rem;
+  }
+  .social-logos .nav li {
+    flex: 0 0 100%;
+    padding: 0 0.938rem;
+    text-align: center;
+  }
+  .what-we-do .boxes-wrapper h3 {
+    min-height: auto;
+  }
+  .our-progress ul li {
+    padding: 25px;
+    flex: 0 0 100%;
+  }
+
+  .portfolio-container {
+    column-count: 1;
+  }
+  .portfolio .portfolio-wrapper {
+    margin: 0 0 3em;
+  }
+  .portfolio .portfolio-wrapper:last-child {
+    margin: 0;
+  }
+  .testimonials-slider .slick-list {
+    padding: 0;
+  }
+  .testimonials-slider .item p {
+    font-size: 1rem;
+  }
+  .testimonials-slider .item {
+    padding: 1.563rem;
+  }
+  .testimonials-slider .item .client-detail h4 {
+    font-size: 1.125rem;
+  }
+  .testimonials-slider .slick-arrow {
+    height: 2.5rem;
+    width: 2.5rem;
+    top: -0.938rem;
+  }
+  .testimonials-slider .slick-arrow svg {
+    height: 1.063rem;
+    width: 1.063rem;
+  }
+  .testimonials-slider .slick-prev {
+    right: 4.375rem;
+  }
+  .subscribe form input::placeholder {
+    font-size: 0.875rem;
+  }
+  .site-footer .row {
+    row-gap: 1.875rem;
+  }
+  .site-footer .copyright {
+    margin: 1.875rem 0 0;
+    text-align: left;
+  }
+  .site-footer {
+    padding: 3.75rem 0 1.875rem;
+  }
+  .site-footer .col-md-4,
+  .site-footer .col-md-3 {
+    width: 100%;
+  }
+}
+/* Media queries End */
